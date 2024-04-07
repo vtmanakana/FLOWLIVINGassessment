@@ -12,7 +12,7 @@ export default function App() {
     <BrowserRouter>
     
       <Routes>
-        <Route path='/home' element={<Home />} />
+        <Route path='/' element={<Home />} />
         <Route path='/log-in' element={<Login />} />
         <Route path='/sign-up' element={<SignUp />} />
         <Route path='/about' element={<About />} />
